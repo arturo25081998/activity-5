@@ -2,13 +2,13 @@ const prompt = require("prompt-sync")();
 const getAllNames = () => {
   let names = [];
   let name = prompt(
-    "Please enter a names, if you do want to continues just press enter: "
+    "Please enter a name, if you do want to continues just press enter: "
   );
 
   while (name !== "") {
     names.push(name);
     name = prompt(
-      "Please enter a names, if you do want to continues just press enter: "
+      "Please enter a name, if you do want to continues just press enter: "
     );
   }
 
